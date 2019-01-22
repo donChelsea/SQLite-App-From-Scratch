@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <TextView
+            android:id="@+id/display_name_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Note name"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/display_message_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Note message"
+            android:textSize="28sp"
+            app:layout_constraintTop_toBottomOf="@id/display_name_textview"/>
+
+</android.support.constraint.ConstraintLayout>
